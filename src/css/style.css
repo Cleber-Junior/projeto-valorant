@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: 'Valorant';
+    src: url(../font/Valorant\ Font.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'Martian Mono', monospace;
+    color: #FFFFFF;
+    background-image: url(../img/background.JPG);
+
+}
+
+h1, h2{
+    font-family: Valorant;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.character_list img{
+    width: 100px;
+}
+
+
+
+.cabecalho img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.selection{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+    
+}
+
+.selection .character_list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+     
+}
+
+.selection .characters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    gap: 25px;
+
+}
+
+.selection .characters .title{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(245, 48, 48);
+    width: 100%;
+    text-align: center;
+    
+}
+
+.character_list .character.select{
+    box-shadow: 2px 2px 10px #CC1100;
+
+}
+
+.character_selected{
+
+    text-align: center;
+    max-height: 530px;   
+    
+}
+
+.character_selected .name_character{
+    border-bottom: 2px solid rgb(245, 48, 48);
+    letter-spacing: 4px;
+    
+}
+
+.character_selected .desc_character{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+
+
+}

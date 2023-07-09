@@ -1,0 +1,41 @@
+@media (max-width: 1000px){
+    .cabecalho .logo{
+        max-width: 170px;
+    }
+
+    .selection{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selection .characters{
+        margin-top: 200px;
+    }
+
+    .selection .characters{
+        font-size: 12px;
+    }
+
+    .selection .character_list{
+        gap: 9px;
+
+    }
+
+    .selection .character img{
+       width: 80px;
+    }
+
+    .character_selected .big_character{
+        width: 350px;
+        height: 500px;
+
+    }
+
+    .character_selected .desc_character{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+}
